@@ -1,0 +1,34 @@
+.hero-gradient {
+    background: linear-gradient(135deg, #0c5230,#21aa66, #054424);
+}
+
+/* For custom heart icon animation if needed */
+.heart-btn.liked i {
+    font-weight: 900; /* Makes the icon solid */
+    color: #ef4444; /* Red color */
+}
+ /* Table layout styles */
+        .main-layout-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .cards-cell {
+            width: 75%; /* 9 out of 12 columns */
+            vertical-align: top;
+            padding-right: 20px; /* Gap between sections */
+        }
+        .history-cell {
+            width: 25%; /* 3 out of 12 columns */
+            vertical-align: top;
+        }
+        /* Responsive adjustments */
+        @media (max-width: 1024px) {
+            .cards-cell, .history-cell {
+                display: block;
+                width: 100%;
+                padding-right: 0;
+            }
+            .history-cell {
+                margin-top: 2rem; /* Add space on mobile */
+            }
+        }
